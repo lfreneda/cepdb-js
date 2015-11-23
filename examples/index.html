@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+<script src="../cepdb.js"></script>
+<script type="text/javascript">
+
+    var cepDb = new CepDb();
+
+    cepDb.search('05422010', {
+        onSuccess: function(data) {
+            alert(JSON.stringify(data));
+        },
+        onTimeout: function() {
+            alert('timed out :(');
+        }
+    });
+
+</script>
+</body>
+</html>
