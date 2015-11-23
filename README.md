@@ -16,7 +16,7 @@ Javascript plugin for cepdb api (https://github.com/lfreneda/cepdb)
     });
 ```
 
-### API
+## API
  
  search( **string** `cep`, **object** `options` )
  
@@ -25,3 +25,8 @@ Javascript plugin for cepdb api (https://github.com/lfreneda/cepdb)
    * **function** `onSuccess` - callback to be called on success 
    * **function** `onTimeout` - callback to be called on request timed out 
    * **int** `timeout` - remove thumbnail versions after sucessful upload (**default**: `10`)
+
+
+#### Working Sample
+ 
+ - clone this repository and browse [examples/index.html](https://github.com/lfreneda/cepdb-js/blob/master/examples/index.html) :)   
