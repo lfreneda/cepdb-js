@@ -1,0 +1,28 @@
+{
+  "name": "cepdb-js",
+  "homepage": "https://github.com/lfreneda/cepdb-js",
+  "authors": [
+    "Luiz Freneda <lfreneda@gmail.com>"
+  ],
+  "description": "Javascript plugin for cepdb api",
+  "main": "index.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "cepdb",
+    "cep",
+    "correios",
+    "brasil",
+    "codigo",
+    "postal"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
