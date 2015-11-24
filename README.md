@@ -19,7 +19,6 @@ Javascript plugin for cepdb api (https://github.com/lfreneda/cepdb)
 
 ```javascript
     var cepDb = new CepDb();
-
     cepDb.search('05422010', {
         onSuccess: function(data) {
             alert(JSON.stringify(data));
