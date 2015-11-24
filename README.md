@@ -1,6 +1,20 @@
 # cepdb-js
 Javascript plugin for cepdb api (https://github.com/lfreneda/cepdb)
 
+## How to install
+
+- Install it with [bower](http://bower.io/)
+
+```javascript
+    bower install cepdb-js
+```
+
+- Add a script a tag for `cepdb-js/index.js`
+
+```html
+    <script src="/bower_components/cepdb-js/index.js"></script>
+```
+
 ## How to use
 
 ```javascript
