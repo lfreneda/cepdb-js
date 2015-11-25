@@ -1,21 +1,21 @@
 # cepdb-js
-Javascript plugin for cepdb api (https://github.com/lfreneda/cepdb)
+Javascript plugin para cepdb api (https://github.com/lfreneda/cepdb)
 
-## How to install
+## Instalação
 
-- Install it with [bower](http://bower.io/)
+- Instalação com [bower](http://bower.io/)
 
 ```javascript
     bower install cepdb-js
 ```
 
-- Add a script a tag for `cepdb-js/index.js`
+- Adicione uma tag script para o arquivo `cepdb-js/index.js`
 
 ```html
     <script src="/bower_components/cepdb-js/index.js"></script>
 ```
 
-## How to use
+## Uso
 
 ```javascript
     var cepDb = new CepDb();
@@ -33,13 +33,13 @@ Javascript plugin for cepdb api (https://github.com/lfreneda/cepdb)
  
  search( **string** `cep`, **object** `options` )
  
- * **cep** `cep` - cep to be searched
- * **object** `options` - global upload options
-   * **function** `onSuccess` - callback to be called on success 
-   * **function** `onTimeout` - callback to be called on request timed out 
-   * **int** `timeout` - remove thumbnail versions after sucessful upload (**default**: `10`)
+ * **cep** `cep` - cep que deseja resolver
+ * **object** `options` - objeto de opções para chamada 
+   * **function** `onSuccess` - callback que será invocada em caso de sucesso.
+   * **function** `onTimeout` - callback que será invocada em caso de timeout.
+   * **int** `timeout` - tempo de espera da requisição (em segundos) (**default**: `10`)
 
 
-#### Working Sample
+#### Exemplo
  
- - clone this repository and browse [examples/index.html](https://github.com/lfreneda/cepdb-js/blob/master/examples/index.html) :)   
+ - clone o repositorio e abra o seguinte arquivo no seu browser preferido: [examples/index.html](https://github.com/lfreneda/cepdb-js/blob/master/examples/index.html) :)   
